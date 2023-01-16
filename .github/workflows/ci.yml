@@ -30,4 +30,4 @@ jobs:
           tag-prefix: 'v'
           commit-message: '[skip ci] bumps version to {{version}}'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUBPUSH_TOKEN }}
