@@ -25,8 +25,7 @@
     "homebridge": ">=1.0.0"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint index.js",
-    "install": "npm install"
+    "lint": "./node_modules/.bin/eslint index.js"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
