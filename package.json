@@ -1,7 +1,7 @@
 {
   "name": "@legnoh/homebridge-natureremo-fan",
   "description": "homebridge nature remo accessory for fan control",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Ryoma Kai<legknmj@icloud.com>",
   "homepage": "https://github.com/legnoh/homebridge-natureremo-fan#readme",
   "repository": {
