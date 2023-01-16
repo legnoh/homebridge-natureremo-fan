@@ -1,33 +1,38 @@
 {
-  "name": "homebridge-nature-remo-cloud-fan",
-  "version": "0.1.2",
+  "name": "@legnoh/homebridge-natureremo-fan",
+  "description": "homebridge nature remo accessory for fan control",
+  "version": "1.0.0",
+  "author": "Ryoma Kai<legknmj@icloud.com>",
+  "homepage": "https://github.com/legnoh/homebridge-natureremo-fan#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mizuka-ninomae/homebridge-nature-remo-cloud-fan.git"
+    "url": "git+https://github.com/legnoh/homebridge-natureremo-fan.git"
   },
-  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/legnoh/homebridge-natureremo-fan/issues"
+  },
+  "license": "MIT",
   "keywords": [
     "homebridge-plugin",
-    "homebridge-nature-remo-cloud-fan",
-    "homebridge-nature-remo-cloud",
-    "cloud",
+    "homebridge-natureremo-fan",
     "fan",
     "nature-remo",
     "NatureRemo"
   ],
+  "main": "index.js",
   "engines": {
     "node": ">=10.17.0",
     "homebridge": ">=1.0.0"
   },
   "scripts": {
-    "lint": "echo \"Warning: lint is not used\" && exit 0",
-    "build": "echo \"Warning: build is not used\" && exit 0"
+    "lint": "./node_modules/.bin/eslint index.js",
+    "install": "npm install"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mizuka-ninomae/homebridge-nature-remo-cloud-fan/issues"
-  },
-  "homepage": "https://github.com/mizuka-ninomae/homebridge-nature-remo-cloud-fan#readme",
-  "description": "homubridge用 NatureRemo Cloud API特化型FAN制御プラグイン （NatureRemo Cloud API specialized FAN control plugin）",
-  "author": "mizuka-ninomae"
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
